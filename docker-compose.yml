@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      UserName: $UserName
+      PassWord: $PassWord
